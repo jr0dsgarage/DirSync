@@ -8,7 +8,7 @@ use tui::{
 };
 use crossterm::execute;
 use crossterm::terminal::{Clear, ClearType};
-use crossterm::event::{self, DisableMouseCapture, EnableMouseCapture};
+use crossterm::event::{DisableMouseCapture, EnableMouseCapture};
 use std::io::{self, stdout};
 use app_state::AppState;
 use ui::draw_ui;
